@@ -1,0 +1,61 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.8;
+  background-color: #fdf6ec; /* tom suave e agradável */
+  color: #333;
+}
+
+/* Cabeçalho */
+.topo {
+  background: #ffb703; /* amarelo suave */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5rem;
+  display: flex; 
+  gap: 20rem;
+}
+
+/* Conteúdo */
+.conteudo {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.conteudo h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fb8500; /* laranja suave */
+}
+
+.conteudo p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+/* Rodapé */
+footer {
+  background: #023047; /* azul profundo */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #a88f72;
+}

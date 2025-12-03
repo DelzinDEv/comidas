@@ -1,0 +1,168 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background:linear-gradient(rgb(160, 106, 7), rgb(163, 6, 6));
+  color: #333;
+}
+
+/* Cabeçalho */
+.topo {
+  background: #e63946;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.topo nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.topo nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.topo nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.topo nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+  background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.banner h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.banner p {
+  margin: 15px 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  background: #e63946;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #d62828;
+}
+
+/* Cardápio */
+.cardapio {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.cardapio h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.item {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 250px;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.item h3 {
+  margin: 15px 0 10px;
+}
+
+.item p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Sobre */
+.sobre {
+  background: #f1faee;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* Contato */
+.contato {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* Rodapé */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+
+#txt{
+  color: #b3b3b3;
+  margin: 20px;
+}
+
+.Doces{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  
+}
+
+.tx{
+  color: #f1faee;
+}
+
+
+a{
+  text-decoration: none;
+  color: #f1faee;
+  transition: all 2s ease 1.5;
+
+}
+
+a:hover {
+  transform: scale(1.5);
+  color: #a8dadc;
+  margin: 5px;
+
+}
