@@ -1,16 +1,14 @@
-/* ============================
-   📱 RESPONSIVIDADE PARA CELULAR
-   ============================ */
+
 
 @media (max-width: 768px) {
 
-  /* ---- topo / menu ---- */
+  
   .topo {
     padding: 15px;
   }
 
   .topo nav ul {
-    display: none; /* esconder menu */
+    display: none; 
     flex-direction: column;
     background: #d62828;
     padding: 15px;
@@ -18,7 +16,7 @@
     margin-top: 10px;
   }
 
-  /* botão menu */
+ 
   .menu-btn {
     display: block;
     font-size: 1.8rem;
@@ -32,12 +30,12 @@
     transform: scale(1.1);
   }
 
-  /* quando o menu abrir */
+  
   .topo nav.active ul {
     display: flex;
   }
 
-  /* links */
+  
   .topo nav ul li {
     display: block;
     margin: 10px 0;
@@ -48,7 +46,7 @@
   }
 
 
-  /* ---- banner ---- */
+  
   .banner {
     padding: 60px 20px;
     background-size: cover;
@@ -65,7 +63,7 @@
   }
 
 
-  /* ---- cards / produtos ---- */
+ 
   .grid, .Doces {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -82,7 +80,7 @@
   }
 
 
-  /* ---- contato ---- */
+ 
   .tx {
     font-size: 1.1rem;
     line-height: 1.8;
@@ -97,7 +95,7 @@
   }
 
 
-  /* ---- rodapé ---- */
+
   footer {
     font-size: 0.9rem;
     padding: 10px;
@@ -105,9 +103,6 @@
 }
 
 
-/* ============================
-   📱 RESPONSIVIDADE EXTRA (TELAS MUITO PEQUENAS)
-   ============================ */
 
 @media (max-width: 480px) {
 
@@ -116,7 +111,7 @@
   }
 
   .grid, .Doces {
-    grid-template-columns: 1fr; /* 1 por linha */
+    grid-template-columns: 1fr; 
   }
 
   .item img {
