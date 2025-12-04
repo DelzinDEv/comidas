@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,14 +8,14 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.8;
-  background-color: #fdf6ec; /* tom suave e agradável */
+  background-color: #fdf6ec; 
   color: #333;
 }
 
-/* Cabeçalho */
+
 .topo {
-  background: #ffb703; /* amarelo suave */
-  color: #fff;
+  background: #ffb703; 
+  color: rgb(87, 87, 165);
   text-align: center;
   padding: 20px;
   font-size: 1.5rem;
@@ -23,7 +23,7 @@ body {
   gap: 20rem;
 }
 
-/* Conteúdo */
+
 .conteudo {
   max-width: 800px;
   margin: 50px auto;
@@ -36,7 +36,7 @@ body {
 .conteudo h2 {
   text-align: center;
   margin-bottom: 20px;
-  color: #fb8500; /* laranja suave */
+  color: #fb8500; 
 }
 
 .conteudo p {
@@ -45,9 +45,8 @@ body {
   text-align: justify;
 }
 
-/* Rodapé */
-footer {
-  background: #023047; /* azul profundo */
+footer{
+  background: #023047; 
   color: white;
   text-align: center;
   padding: 15px;
