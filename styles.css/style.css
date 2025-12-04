@@ -1,123 +1,168 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background:linear-gradient(rgb(160, 106, 7), rgb(163, 6, 6));
+  color: #333;
+}
 
-@media (max-width: 768px) {
+/* Cabeçalho */
+.topo {
+  background: #e63946;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
-  
-  .topo {
-    padding: 15px;
-  }
+.topo nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
 
-  .topo nav ul {
-    display: none; 
-    flex-direction: column;
-    background: #d62828;
-    padding: 15px;
-    border-radius: 10px;
-    margin-top: 10px;
-  }
+.topo nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
 
- 
-  .menu-btn {
-    font-size: 1.8rem;
-    cursor: pointer;
-    margin-top: 10px;
-    color: #fff;
-    transition: 0.3s;
-  }
+.topo nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-  .menu-btn:hover {
-    transform: scale(1.1);
-  }
+.topo nav ul li a:hover {
+  text-decoration: underline;
+}
 
-  
-  .topo nav.active ul {
-    display: flex;
-  }
+/* Banner */
+.banner {
+  background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
 
-  
-  .topo nav ul li {
-    display: block;
-    margin: 10px 0;
-  }
+.banner h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
 
-  .topo nav ul li a {
-    font-size: 1.2rem;
-  }
+.banner p {
+  margin: 15px 0;
+  font-size: 1.2rem;
+  color: #333;
+}
 
+.btn {
+  display: inline-block;
+  background: #e63946;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
 
-  
-  .banner {
-    padding: 60px 20px;
-    background-size: cover;
-    background-position: center;
-  }
+.btn:hover {
+  background: #d62828;
+}
 
-  .banner h2 {
-    font-size: 1.8rem;
-  }
+/* Cardápio */
+.cardapio {
+  padding: 50px 20px;
+  text-align: center;
+}
 
-  .banner p, #txt {
-    font-size: 1rem;
-    margin: 10px 0;
-  }
+.cardapio h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
 
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 
- 
-  .grid, .Doces {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-  }
+.item {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 250px;
+}
 
-  .item {
-    width: 100%;
-    padding: 10px;
-  }
+.item img {
+  width: 100%;
+  border-radius: 10px;
+}
 
-  .item h3 {
-    font-size: 1rem;
-  }
+.item h3 {
+  margin: 15px 0 10px;
+}
 
+.item p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 
- 
-  .tx {
-    font-size: 1.1rem;
-    line-height: 1.8;
-  }
+/* Sobre */
+.sobre {
+  background: #f1faee;
+  padding: 50px 20px;
+  text-align: center;
+}
 
-  a {
-    font-size: 1.1rem;
-  }
+/* Contato */
+.contato {
+  padding: 50px 20px;
+  text-align: center;
+}
 
-  a:hover {
-    transform: scale(1.1);
-  }
-
-
-
-  footer {
-    font-size: 0.9rem;
-    padding: 10px;
-  }
+/* Rodapé */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
 
 
+#txt{
+  color: #b3b3b3;
+  margin: 20px;
+}
 
-@media (max-width: 480px) {
+.Doces{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  
+}
 
-  .banner h2 {
-    font-size: 1.6rem;
-  }
+.tx{
+  color: #f1faee;
+}
 
-  .grid, .Doces {
-    grid-template-columns: 1fr; 
-  }
 
-  .item img {
-    border-radius: 12px;
-  }
+a{
+  text-decoration: none;
+  color: #f1faee;
+  transition: all 2s ease 1.5;
 
-  .item {
-    padding: 12px;
-  }
+}
+
+a:hover {
+  transform: scale(1.5);
+  color: #a8dadc;
+  margin: 5px;
+
 }
